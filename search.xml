@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[说说5个W和1个H]]></title>
-    <url>%2F2017%2F06%2F25%2F2301%2F</url>
-    <content type="text"></content>
+    <title><![CDATA[考量一件事（think one thing）]]></title>
+    <url>%2F2017%2F06%2F26%2F2336%2F</url>
+    <content type="text"><![CDATA[]]></content>
       <categories>
         <category>随笔</category>
       </categories>
@@ -12,8 +12,14 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2017%2F06%2F24%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <title><![CDATA[说说5个W和1个H]]></title>
+    <url>%2F2017%2F06%2F25%2F2301%2F</url>
+    <content type="text"><![CDATA[5W+1H：是对选定的项目、工序或操作，都要从原因（何因Why）、对象（何事What）、地点（何地Where）、时间（何时When）、人员（何人Who）、方法（何法How）等六个方面提出问题进行思考。 things：项目组在开发一个项目？1、对象 （What） ——什么事情 项目组在开发什么项目？ 2、场所 （Where）——什么地点 选择工作场所应该考虑的,在things中不考虑 3、时间 （When） ——什么时候 在一段时间按照程序做事。为什么要在这个时候干？能不能在其他时候干？把后工序提到前面行不行？到底应该在什么时间干？ 4、人员 （Who） ——什么人员 这个事情是谁在干？为什么要让他干？ 5、为什么（Why） ——什么原因 为什么用这个技术？为什么非做不可？ 6、方式 （How） ——如何 我们是怎样干的？为什么用这种方法来干？有没有别的方法可以干？到底应该怎么干？需求变动，又如何干？]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
   </entry>
 </search>
