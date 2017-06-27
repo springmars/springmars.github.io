@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[考量一件事（think one thing）]]></title>
+    <title><![CDATA[考量一件事（consider one thing）]]></title>
     <url>%2F2017%2F06%2F26%2F2336%2F</url>
-    <content type="text"><![CDATA[]]></content>
+    <content type="text"><![CDATA[从写程序的角度考量一件事或者一个动作 thing：项目组打算开发一个项目1、init 项目在开发之前已经具备哪些条件？应该准备哪些？ 2、after 项目开发之前是否做过评估，调研？ 3、execute/starting 项目开始推进 4、on/doing 项目持续推进 5、stop 项目因为一些原因停止？ 6、end/over 项目结束 7、result 项目顺利完成？ 8、before 项目完成之后的该做什么？（上线，维护） 9、filter 项目在进行中该过滤什么？ 10、listener 在项目推进过程中持续关注，监控每个环节？ 11、dispatcher 项目推进过程中适时根据进展调度？ 12、adapter 为项目适配最优配置以适应进展调度？ 13、handler 最优配置？]]></content>
       <categories>
         <category>随笔</category>
       </categories>
