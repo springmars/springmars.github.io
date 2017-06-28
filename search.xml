@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[考量一件事（consider one thing）]]></title>
     <url>%2F2017%2F06%2F26%2F2336%2F</url>
-    <content type="text"><![CDATA[从写程序的角度考量一件事或者一个动作 thing：项目组打算开发一个项目1、init 项目在开发之前已经具备哪些条件？应该准备哪些？ 2、after 项目开发之前是否做过评估，调研？ 3、execute/starting 项目开始推进 4、on/doing 项目持续推进 5、stop 项目因为一些原因停止？ 6、end/over 项目结束 7、result 项目顺利完成？ 8、before 项目完成之后的该做什么？（上线，维护） 9、filter 项目在进行中该过滤什么？ 10、listener 在项目推进过程中持续关注，监控每个环节？ 11、dispatcher 项目推进过程中适时根据进展调度？ 12、adapter 为项目适配最优配置以适应进展调度？ 13、handler 最优配置？]]></content>
+    <content type="text"><![CDATA[从写程序的角度考量一件事或者一个动作 1thing：项目组打算开发一个项目 1、init 项目在开发之前已经具备哪些条件？应该准备哪些？ 2、after 项目开发之前是否做过评估，调研？ 3、execute/starting 项目开始推进 4、on/doing 项目持续推进 5、stop 项目因为一些原因停止？ 6、end/over 项目结束 7、result 项目顺利完成？ 8、before 项目完成之后的该做什么？（上线，维护） 9、filter 项目在进行中该过滤什么？ 10、listener 在项目推进过程中持续关注，监控每个环节？ 11、dispatcher 项目推进过程中适时根据进展调度？ 12、adapter 为项目适配最优配置以适应进展调度？ 13、handler 最优配置？]]></content>
       <categories>
         <category>随笔</category>
       </categories>
@@ -14,7 +14,7 @@
   <entry>
     <title><![CDATA[说说5个W和1个H]]></title>
     <url>%2F2017%2F06%2F25%2F2301%2F</url>
-    <content type="text"><![CDATA[5W+1H：是对选定的项目、工序或操作，都要从原因（何因Why）、对象（何事What）、地点（何地Where）、时间（何时When）、人员（何人Who）、方法（何法How）等六个方面提出问题进行思考。 things：项目组在开发一个项目？1、对象 （What） ——什么事情 项目组在开发什么项目？ 2、场所 （Where）——什么地点 选择工作场所应该考虑的,在things中不考虑 3、时间 （When） ——什么时候 在一段时间按照程序做事。为什么要在这个时候干？能不能在其他时候干？把后工序提到前面行不行？到底应该在什么时间干？ 4、人员 （Who） ——什么人员 这个事情是谁在干？为什么要让他干？ 5、为什么（Why） ——什么原因 为什么用这个技术？为什么非做不可？ 6、方式 （How） ——如何 我们是怎样干的？为什么用这种方法来干？有没有别的方法可以干？到底应该怎么干？需求变动，又如何干？]]></content>
+    <content type="text"><![CDATA[5W+1H：是对选定的项目、工序或操作，都要从原因（何因Why）、对象（何事What）、地点（何地Where）、时间（何时When）、人员（何人Who）、方法（何法How）等六个方面提出问题进行思考。 1things：项目组在开发一个项目？ 对象 （What） ——什么事情 项目组在开发什么项目？ 场所 （Where）——什么地点 选择工作场所应该考虑的,在things中不考虑 时间 （When） ——什么时候 在一段时间按照程序做事。为什么要在这个时候干？能不能在其他时候干？把后工序提到前面行不行？到底应该在什么时间干？ 人员 （Who） ——什么人员 这个事情是谁在干？为什么要让他干？ 为什么（Why） ——什么原因 为什么用这个技术？为什么非做不可？ 方式 （How） ——如何 我们是怎样干的？为什么用这种方法来干？有没有别的方法可以干？到底应该怎么干？需求变动，又如何干？]]></content>
       <categories>
         <category>随笔</category>
       </categories>
