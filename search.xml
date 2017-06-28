@@ -1,6 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[hexo 搭建博客（续）]]></title>
+    <url>%2F2017%2F06%2F28%2Fblog-2320%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>搭建博客</category>
+      </categories>
+      <tags>
+        <tag>搭建博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo 搭建博客（四）]]></title>
+    <url>%2F2017%2F06%2F28%2Fblog-2319%2F</url>
+    <content type="text"><![CDATA[1. 搭建博客 &nbsp; 2. 设置主题 &nbsp; 3. 域名绑定 &nbsp; 4. 发表文章]]></content>
+      <categories>
+        <category>搭建博客</category>
+      </categories>
+      <tags>
+        <tag>搭建博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo 搭建博客（三）]]></title>
+    <url>%2F2017%2F06%2F28%2Fblog-2318%2F</url>
+    <content type="text"><![CDATA[1. 搭建博客 &nbsp; 2. 设置主题 &nbsp; 3. 域名绑定 &nbsp; 4. 发表文章 #]]></content>
+      <categories>
+        <category>搭建博客</category>
+      </categories>
+      <tags>
+        <tag>搭建博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo 搭建博客（二）]]></title>
+    <url>%2F2017%2F06%2F28%2Fblog-2208%2F</url>
+    <content type="text"><![CDATA[1. 搭建博客 &nbsp; 2. 设置主题 &nbsp; 3. 域名绑定 &nbsp; 4. 发表文章 挑选主题 (本文将以 next 主题为例) 挑选喜欢的主题 更多主题 &nbsp; 参考喜欢主题文档进行相关设置 安装主题 启用 NexT 主题 主题设定 主题配置 集成第三方服务]]></content>
+      <categories>
+        <category>搭建博客</category>
+      </categories>
+      <tags>
+        <tag>搭建博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo 搭建博客（一）]]></title>
+    <url>%2F2017%2F06%2F28%2Fblog-2104%2F</url>
+    <content type="text"><![CDATA[1. 搭建博客 &nbsp; 2. 设置主题 &nbsp; 3. 域名绑定 &nbsp; 4. 发表文章 安装git 安装git,参考 菜鸟教程-git教程 或者 百度安装在cmd下输入 git –version，显示git版本，安装完成12C:\Windows\System32&gt;git --versiongit version 2.9.0.windows.1 安装node、npm 安装node，参考 菜鸟教程-node.js教程 或者 百度安装在cmd输入 node -v npm -v,显示node和npm版本，安装完成12345C:\Windows\System32&gt;node -vv6.9.5C:\Windows\System32&gt;npm -v3.10.10 安装hexo, 运行hexo 安装hexo12345npm install hexo-cli -g # 安装hexo-clihexo version # 查看hexo版本cd your dir &amp;&amp; hexo init blogName # 初始化 your blog cd blogName &amp;&amp; npm install # 安装组件hexo server # 运行hexo 运行成功显示：INFO Hexo is running at http://localhost:4000/. Press Ctrl+C to stop. 访问 hexo 访问 http://localhost:4000]]></content>
+      <categories>
+        <category>搭建博客</category>
+      </categories>
+      <tags>
+        <tag>搭建博客</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[考量一件事（consider one thing）]]></title>
     <url>%2F2017%2F06%2F26%2F2336%2F</url>
     <content type="text"><![CDATA[从写程序的角度考量一件事或者一个动作 1thing：项目组打算开发一个项目 1、init 项目在开发之前已经具备哪些条件？应该准备哪些？ 2、after 项目开发之前是否做过评估，调研？ 3、execute/starting 项目开始推进 4、on/doing 项目持续推进 5、stop 项目因为一些原因停止？ 6、end/over 项目结束 7、result 项目顺利完成？ 8、before 项目完成之后的该做什么？（上线，维护） 9、filter 项目在进行中该过滤什么？ 10、listener 在项目推进过程中持续关注，监控每个环节？ 11、dispatcher 项目推进过程中适时根据进展调度？ 12、adapter 为项目适配最优配置以适应进展调度？ 13、handler 最优配置？]]></content>
