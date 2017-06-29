@@ -14,7 +14,7 @@
   <entry>
     <title><![CDATA[hexo 搭建博客（四）]]></title>
     <url>%2F2017%2F06%2F28%2Fblog-2319%2F</url>
-    <content type="text"><![CDATA[1. 搭建博客 &nbsp; 2. 设置主题 &nbsp; 3. 域名绑定 &nbsp; 4. 发表文章]]></content>
+    <content type="text"><![CDATA[1. 搭建博客 &nbsp; 2. 设置主题 &nbsp; 3. 域名绑定 &nbsp; 4. 发表文章 使用 markdown 语法发布博文 创建md文件（markdown文件）在文章中添加图片 在博客目录安装 hexo-asset-image1npm install hexo-asset-image --save ## 确保已切换至个人的博客目录 设置站点配置文件的post_asset_folder选项为 true1post_asset_folder: true 创建 文章(以本篇为例)12hexo new post blog-2319 ## 确保已切换至个人的博客目录INFO Created: dir\source\_posts\blog-2319.md ## info 当安装过 hexo-asset-image 后,运行hexo new post “xxxx”来生成md博文时，/source/_posts文件夹内除了xxxx.md文件还有一个同名的文件夹,该文件用来存放本篇博文的图片 Markdown语法写博文语法为 markdown 语法。 参考 markdown语法百度 markdown语法]]></content>
       <categories>
         <category>搭建博客</category>
       </categories>
