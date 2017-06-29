@@ -25,7 +25,7 @@
   <entry>
     <title><![CDATA[hexo 搭建博客（三）]]></title>
     <url>%2F2017%2F06%2F28%2Fblog-2318%2F</url>
-    <content type="text"><![CDATA[1. 搭建博客 &nbsp; 2. 设置主题 &nbsp; 3. 域名绑定 &nbsp; 4. 发表文章 #]]></content>
+    <content type="text"><![CDATA[1. 搭建博客 &nbsp; 2. 设置主题 &nbsp; 3. 域名绑定 &nbsp; 4. 发表文章 选择 github pages 或者 oschina pages 完成域名绑定 绑定 Github完成github注册和创建github pages 注册 github https://github.com 此处以我的用户名为例 pseason 创建github pages（实际创建一个仓库，仓库名称为：pseason.github.io） 为github用户添加 SSH key绑定 oschina]]></content>
       <categories>
         <category>搭建博客</category>
       </categories>
@@ -36,7 +36,7 @@
   <entry>
     <title><![CDATA[hexo 搭建博客（二）]]></title>
     <url>%2F2017%2F06%2F28%2Fblog-2208%2F</url>
-    <content type="text"><![CDATA[1. 搭建博客 &nbsp; 2. 设置主题 &nbsp; 3. 域名绑定 &nbsp; 4. 发表文章 挑选主题 (本文将以 next 主题为例) 挑选喜欢的主题 更多主题 &nbsp; 参考喜欢主题文档进行相关设置 安装主题 启用 NexT 主题 主题设定 主题配置 集成第三方服务]]></content>
+    <content type="text"><![CDATA[1. 搭建博客 &nbsp; 2. 设置主题 &nbsp; 3. 域名绑定 &nbsp; 4. 发表文章 挑选主题 (本文将以 next 主题为例) 挑选喜欢的主题更多主题请访问https://hexo.io/themes/ 获取 &nbsp; 参考喜欢主题文档进行相关设置 安装主题 参考 http://theme-next.iissnan.com/getting-started.html#install-next-theme 启用 NexT 主题 参考 http://theme-next.iissnan.com/getting-started.html#activate-next-theme 主题设定 参考 http://theme-next.iissnan.com/getting-started.html#theme-settings 主题配置 参考 http://theme-next.iissnan.com/theme-settings.html 集成第三方服务 参考 http://theme-next.iissnan.com/third-party-services.html]]></content>
       <categories>
         <category>搭建博客</category>
       </categories>
@@ -47,7 +47,7 @@
   <entry>
     <title><![CDATA[hexo 搭建博客（一）]]></title>
     <url>%2F2017%2F06%2F28%2Fblog-2104%2F</url>
-    <content type="text"><![CDATA[1. 搭建博客 &nbsp; 2. 设置主题 &nbsp; 3. 域名绑定 &nbsp; 4. 发表文章 安装git 安装git,参考 菜鸟教程-git教程 或者 百度安装在cmd下输入 git –version，显示git版本，安装完成12C:\Windows\System32&gt;git --versiongit version 2.9.0.windows.1 安装node、npm 安装node，参考 菜鸟教程-node.js教程 或者 百度安装在cmd输入 node -v npm -v,显示node和npm版本，安装完成12345C:\Windows\System32&gt;node -vv6.9.5C:\Windows\System32&gt;npm -v3.10.10 安装hexo, 运行hexo 安装hexo12345npm install hexo-cli -g # 安装hexo-clihexo version # 查看hexo版本cd your dir &amp;&amp; hexo init blogName # 初始化 your blog cd blogName &amp;&amp; npm install # 安装组件hexo server # 运行hexo 运行成功显示：INFO Hexo is running at http://localhost:4000/. Press Ctrl+C to stop. 访问 hexo 访问 http://localhost:4000]]></content>
+    <content type="text"><![CDATA[1. 搭建博客 &nbsp; 2. 设置主题 &nbsp; 3. 域名绑定 &nbsp; 4. 发表文章 安装git 安装git,参考 菜鸟教程-git教程 或者 百度安装在cmd下输入 git –version，显示git版本，安装完成12C:\Windows\System32&gt;git --versiongit version 2.9.0.windows.1 安装node、npm 安装node，参考 菜鸟教程-node.js教程 或者 百度安装在cmd输入 node -v npm -v,显示node和npm版本，安装完成12345C:\Windows\System32&gt;node -vv6.9.5C:\Windows\System32&gt;npm -v3.10.10 安装hexo, 运行hexo 安装hexo 参考 https://hexo.io/12345npm install hexo-cli -g # 安装hexo-clihexo version # 查看hexo版本cd your dir &amp;&amp; hexo init blogName # 初始化 your blog cd blogName &amp;&amp; npm install # 安装组件hexo server # 运行hexo 运行成功显示：INFO Hexo is running at http://localhost:4000/. Press Ctrl+C to stop. 访问 hexo 访问 http://localhost:4000]]></content>
       <categories>
         <category>搭建博客</category>
       </categories>
