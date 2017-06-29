@@ -100,10 +100,14 @@
 <meta property="og:url" content="http://pengshuo.club/2017/06/28/blog-2318/index.html">
 <meta property="og:site_name" content="不来梅">
 <meta property="og:description" content="1. 搭建博客  &amp;nbsp;  2. 设置主题  &amp;nbsp; 3. 域名绑定  &amp;nbsp;  4. 发表文章 选择 github pages 或者 oschina pages 完成域名绑定">
-<meta property="og:updated_time" content="2017-06-29T00:05:37.114Z">
+<meta property="og:image" content="http://pengshuo.club/2017/06/28/blog-2318/231801.jpg">
+<meta property="og:image" content="http://pengshuo.club/2017/06/28/blog-2318/231802.jpg">
+<meta property="og:image" content="http://pengshuo.club/2017/06/28/blog-2318/231803.jpg">
+<meta property="og:updated_time" content="2017-06-29T15:14:52.787Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo 搭建博客（三）">
 <meta name="twitter:description" content="1. 搭建博客  &amp;nbsp;  2. 设置主题  &amp;nbsp; 3. 域名绑定  &amp;nbsp;  4. 发表文章 选择 github pages 或者 oschina pages 完成域名绑定">
+<meta name="twitter:image" content="http://pengshuo.club/2017/06/28/blog-2318/231801.jpg">
 
 
 
@@ -428,10 +432,37 @@
 
       
         <p><a href="http://pengshuo.club/2017/06/28/blog-2104/"> 1. 搭建博客 </a> &nbsp; <a href="http://pengshuo.club/2017/06/28/blog-2208/"> 2. 设置主题 </a> &nbsp; <a href="http://pengshuo.club/2017/06/28/blog-2318/">3. 域名绑定 </a> &nbsp; <a href="http://pengshuo.club/2017/06/28/blog-2319/"> 4. 发表文章 </a><br>选择 <a href="https://pages.github.com/" target="_blank" rel="external">github pages</a> 或者 <a href="http://git.mydoc.io/?t=154714" target="_blank" rel="external">oschina pages</a> 完成域名绑定<br><a id="more"></a></p>
-<h2 id="绑定-Github"><a href="#绑定-Github" class="headerlink" title="绑定 Github"></a>绑定 <a href="https://github.com" target="_blank" rel="external">Github</a></h2><h3 id="完成github注册和创建github-pages"><a href="#完成github注册和创建github-pages" class="headerlink" title="完成github注册和创建github pages"></a>完成github注册和创建github pages</h3><blockquote>
+<h2 id="Github-Pages-绑定"><a href="#Github-Pages-绑定" class="headerlink" title="Github Pages 绑定"></a><a href="https://github.com" target="_blank" rel="external">Github Pages</a> 绑定</h2><h3 id="完成github注册和创建github-pages"><a href="#完成github注册和创建github-pages" class="headerlink" title="完成github注册和创建github pages"></a>完成github注册和创建github pages</h3><blockquote>
 <p>注册 <a href="https://github.com" target="_blank" rel="external">github</a>  <a href="https://github.com" target="_blank" rel="external">https://github.com</a>   <strong><em> 此处以我的用户名为例 pseason </em></strong><br>创建github pages（实际创建一个仓库，仓库名称为：pseason.github.io）</p>
 </blockquote>
-<h3 id="为github用户添加-SSH-key"><a href="#为github用户添加-SSH-key" class="headerlink" title="为github用户添加 SSH key"></a>为github用户添加 SSH key</h3><h2 id="绑定-oschina"><a href="#绑定-oschina" class="headerlink" title="绑定 oschina"></a>绑定 <a href="https://git.oschina.net/" target="_blank" rel="external">oschina</a></h2>
+<h3 id="为github用户添加-SSH-key"><a href="#为github用户添加-SSH-key" class="headerlink" title="为github用户添加 SSH key"></a>为github用户添加 SSH key</h3><blockquote>
+<p>为本地git添加 用户名和邮箱<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --global user.name <span class="string">"pseason"</span>   </div><div class="line">git config --global user.email 243834447@qq.com</div></pre></td></tr></table></figure></p>
+<p>验证结果<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">C:\Windows\System32&gt;git config user.name</div><div class="line">pseason</div><div class="line"></div><div class="line">C:\Windows\System32&gt;git config user.email</div><div class="line">243834447@qq.com</div></pre></td></tr></table></figure></p>
+<p>添加ssh key（桌面右键 Git Bash Here）<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -C <span class="string">'你的邮箱'</span>  <span class="comment"># 邮箱为注册github填写的邮箱</span></div></pre></td></tr></table></figure></p>
+<p>然后一直按回车，成功之后我们根据提示的保存路径找到一个 id _rsa.pub的文件，复制里面的全部内容。<br>然后登陆的github账号，找到右上角的图标，打开settings,接着找到左面的sshkey接着点击右面的new ssh key，<br>然后把我们刚才复制的东西copy进去，这个密钥的标题随便起。OK密钥创建完成。</p>
+</blockquote>
+<h3 id="上传本地博客到github"><a href="#上传本地博客到github" class="headerlink" title="上传本地博客到github"></a>上传本地博客到github</h3><blockquote>
+<p>在 站点配置文件 添加部署方式和github仓库<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  <span class="built_in">type</span>: git</div><div class="line">  repo: git@github.com:pseason/pseason.github.io.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure></p>
+<p>在博客目录安装 hexo-deployer-git ,切换博客目录，执行命令<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-deployer-git --save</div></pre></td></tr></table></figure></p>
+<p>执行命令,上传至github,访问 github pages<br> <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo clean &amp;&amp; hexo d <span class="comment"># (确保已经切换至博客目录)</span></div><div class="line">(提示输入密码，输入个人github信息)</div></pre></td></tr></table></figure></p>
+<p>提示信息：<br> To git@github.com:pseason/pseason.github.io.git<br>    9340bf4..90fec38  HEAD -&gt; master<br> INFO  Deploy done: git</p>
+</blockquote>
+<h3 id="访问自己的-github-pages"><a href="#访问自己的-github-pages" class="headerlink" title="访问自己的 github pages"></a>访问自己的 github pages</h3><blockquote>
+<p>访问 github pages 例如：<a href="pseason.github.io">pseason.github.io</a><br>github pages（实际创建一个仓库，仓库名称为：pseason.github.io）</p>
+</blockquote>
+<h3 id="绑定域名（以阿里云解析为例）"><a href="#绑定域名（以阿里云解析为例）" class="headerlink" title="绑定域名（以阿里云解析为例）"></a>绑定域名（以阿里云解析为例）</h3><blockquote>
+<p>购买自己喜欢的域名 <a href="https://wanwang.aliyun.com/domain/" target="_blank" rel="external">阿里云-万网</a><br><img src="/2017/06/28/blog-2318/231801.jpg" alt="域名"><br>在 cmd 下 ping github pages (获取个人github pages的ip)<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">C:\Windows\System32&gt;ping pseason.github.io</div><div class="line">正在 Ping github.map.fastly.net [151.101.72.133] 具有 32 字节的数据:</div><div class="line">来自 151.101.72.133 的回复: 字节=32 时间=106ms TTL=54</div><div class="line">来自 151.101.72.133 的回复: 字节=32 时间=101ms TTL=54</div><div class="line">来自 151.101.72.133 的回复: 字节=32 时间=103ms TTL=54</div><div class="line">来自 151.101.72.133 的回复: 字节=32 时间=124ms TTL=54</div></pre></td></tr></table></figure></p>
+<p>151.101.72.133为自己 github pages 的ip地址<br>登录个人阿里云 云解析DNS 为自己购买的域名添加解析指向我们的github pages<br>添加2条解析记录（一般2-3分钟生效）<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">A   @       151.101.72.133      <span class="comment"># @</span></div><div class="line">A   www     151.101.72.133      <span class="comment"># www</span></div></pre></td></tr></table></figure></p>
+</blockquote>
+<p><img src="/2017/06/28/blog-2318/231802.jpg" alt="云解析"></p>
+<blockquote>
+<p>至此我们购买的域名已指向 github pages 了。访问自己的域名，查看结果。（单向绑定）<br>再次为 github pages 添加指向我们个人域名的关联                      （双向绑定）<br>在个人博客主题source目录添加 CNAME 文件，在 CNAME 文件中录入我们自己购买的域名<br><img src="/2017/06/28/blog-2318/231803.jpg" alt="CNAME"><br>再次执行 hexo d 提交 CNAME 文件至自己的 github pages 主页仓库，至此完成双向绑定。<br> <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo clean &amp;&amp; hexo d   <span class="comment">## 确保已切换至个人的博客目录</span></div></pre></td></tr></table></figure></p>
+<p><strong><em>为什么要在theme的source文件添加 CNAME 文件 ?</em></strong><br><strong><em>当我们在提交博客代码时会冲掉仓库中 CNAME 文件，为保证双向绑定，在本地添加 CNAME 文件，确保每次提交github仓库中都存在该 CNAME 文件</em></strong></p>
+</blockquote>
+<h2 id="oschina-pages-绑定"><a href="#oschina-pages-绑定" class="headerlink" title="oschina pages  绑定"></a><a href="https://git.oschina.net/" target="_blank" rel="external">oschina pages</a>  绑定</h2><h3 id="oschina-pages-绑定和-github-pages-绑定大致相同"><a href="#oschina-pages-绑定和-github-pages-绑定大致相同" class="headerlink" title="oschina pages 绑定和 github pages 绑定大致相同"></a>oschina pages 绑定和 github pages 绑定大致相同</h3><blockquote>
+<p><strong><em>码云pages未开通域名指向功能，只能同通过 yourName.oschina.io 访问，但在国内访问速度比域名指向 github pages 快，体验更好，缺点是不能域名绑定</em></strong></p>
+</blockquote>
+
       
     </div>
 
@@ -730,7 +761,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#绑定-Github"><span class="nav-text">绑定 Github</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#完成github注册和创建github-pages"><span class="nav-text">完成github注册和创建github pages</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#为github用户添加-SSH-key"><span class="nav-text">为github用户添加 SSH key</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#绑定-oschina"><span class="nav-text">绑定 oschina</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Github-Pages-绑定"><span class="nav-text">Github Pages 绑定</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#完成github注册和创建github-pages"><span class="nav-text">完成github注册和创建github pages</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#为github用户添加-SSH-key"><span class="nav-text">为github用户添加 SSH key</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#上传本地博客到github"><span class="nav-text">上传本地博客到github</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#访问自己的-github-pages"><span class="nav-text">访问自己的 github pages</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#绑定域名（以阿里云解析为例）"><span class="nav-text">绑定域名（以阿里云解析为例）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#oschina-pages-绑定"><span class="nav-text">oschina pages  绑定</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#oschina-pages-绑定和-github-pages-绑定大致相同"><span class="nav-text">oschina pages 绑定和 github pages 绑定大致相同</span></a></li></ol></li></ol></div>
             
 
           </div>
