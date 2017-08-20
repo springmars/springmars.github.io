@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[hexo 搭建博客（续）]]></title>
-    <url>%2F2017%2F06%2F28%2Fblog-2320%2F</url>
-    <content type="text"></content>
+    <title><![CDATA[springboot mybatis多数据源]]></title>
+    <url>%2F2017%2F07%2F03%2Fspringboot-mybatis%2F</url>
+    <content type="text"><![CDATA[]]></content>
       <categories>
-        <category>搭建博客</category>
+        <category>springboot mybatis</category>
       </categories>
       <tags>
-        <tag>搭建博客</tag>
+        <tag>springboot mybatis</tag>
       </tags>
   </entry>
   <entry>
